@@ -106,7 +106,7 @@ const gameOver = id => {
 
   setTimeout(() => {
     const result = confirm(rankCheck(score));
-  }, 100);
+  }, 10);
 
   // OKボタンをクリックされたらリロードする
   if(result == true) {
